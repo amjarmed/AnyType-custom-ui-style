@@ -86,6 +86,11 @@ Let's build a comprehensive resource hub for the AnyType community together!
 ---
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/amjarmed)
 
+ 
+   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9V8PY22DDXMVC" style="vertical-align:top; margin:4px">
+  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" alt="buymeacoffee" />
+ </a>
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
