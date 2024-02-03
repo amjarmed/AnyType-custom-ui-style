@@ -6,56 +6,29 @@
  * github:https://github.com/amjarino/AnyType-custom-ui-style
  * Description: Custom CSS styles for AnyType UI.
  */
+ /////
+// Base
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/base';
+// Layout
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
 
-/* ==========================
-   Defaults theme Styles setting : colors, fonts, border, outlines...
-========================== */
-:root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --font-family: "Helvetica Neue", sans-serif;
-  --font-size-base: 16px;
-}
+// Components
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/modals';
 
-/* ==========================
-   Defaults Styles across all devices : fonts, rtl, border, backgroudn
-========================== */
+// Pages
+@import 'pages/home';
+@import 'pages/pages';
 
-body {
-  font-family: var(--font-family);
-  font-size: var(--font-size-base);
-  /*  TO use local images : file///: not gonna work , use direct C:/Users/... */
-  background-image: url("https://unsplash.com/photos/person-holding-white-ring-light-1Kqc8ymfMKY");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-origin: border-box;
-}
+// Utilities
+@import 'utilities/utilities';
 
-/* ==========================
-   Responsive Styles
-========================== */
+// Vendor
+@import 'vendor/vendor';
 
-/*======================
-    For next blocks I'm Still reading Scss files In github to understand 
-    more about the US Structure css Selector
-    Possible in future I will switch for Scss if needed , make scss folder contain small
-
-=======================*/
-/* move down block data table of cards */
-.pageMainSet .wrapper .block.blockDataview {
-  margin-top: 25vh;
-}
-
-/* hide the page type that showing up under the title  */
-html.debug .blocks .block {
-  border: none !important;
-}
-
-/* html.debug .blocks .block {
-    border: 1px solid rgba(255,0,0,.1);
-} */
-/*  remove red border around blocks border  */
-.blocks .block.blockFeatured.small .cellContent {
-  display: none !important;
-}

@@ -1,0 +1,12 @@
+// _components.scss
+
+// Button Styles
+.button {
+  background-color: $primary-color;
+  color: #fff;
+  padding: $padding-small $padding-medium;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+

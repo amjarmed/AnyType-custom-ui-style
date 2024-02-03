@@ -7,11 +7,24 @@
 </p>
 
 
-# AnyType Custom UI Style Development Proposal
+# AnyType Custom UI Style Development
 
 ## Overview
 
 The objective of this project is to enhance the user experience within AnyType by introducing a custom UI style. The proposed solution involves creating a versatile and user-friendly interface that allows users to choose between different builds with ease.
+
+
+now we gonna build this custom UI content using scss and files we created before, respect the flowing instructions :
+- try to find AnyType ui sections And Componnents.
+- create variable global them color using matrial desing recommandation.
+- create variables fonts using matrial desing recommandation for disktop app.
+-  create variables for sizes padding, margin.
+- create variables for media query using bootstrap recommondation.
+- you can add other variables needed for our them.
+ create one file each time, and then when I'm done I will ask to continue like this "next file ". do you understand?
+
+
+
 
 ## Technical Framework
 

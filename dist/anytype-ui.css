@@ -1,0 +1,54 @@
+/**
+ * AnyType Custom UI Styles
+ * Version: 1.0
+ * Date: 03/02/2024
+ * Author: @amjarmed_1
+ * github:https://github.com/amjarino/AnyType-custom-ui-style
+ * Description: Custom CSS styles for AnyType UI.
+ */
+/* Variables
+============================== */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.button {
+  background-color: #3F51B5;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.no-list-style {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.third-party-component {
+  background-color: #FF4081;
+  color: #fff;
+  padding: 16px;
+}
+
+/*# sourceMappingURL=anytype-ui.css.map */

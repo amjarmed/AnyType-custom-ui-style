@@ -1,0 +1,35 @@
+/* Variables
+============================== */
+
+// _variables.scss
+
+// Global Theme Colors (Material Design Recommendations)
+$primary-color: #3F51B5;
+$secondary-color: #FFC107;
+$accent-color: #FF4081;
+
+//image background if needed
+$primary-image:"https://unsplash.com/photos/grayscale-photo-of-persons-hand-5u4L-E4eQWw";
+
+// Font Variables (Material Design Recommendations for Desktop Apps)
+$font-family: 'Roboto', sans-serif;
+$font-size-base: 16px;
+
+// Sizes for Padding and Margin
+$padding-small: 8px;
+$padding-medium: 16px;
+$padding-large: 24px;
+
+$margin-small: 8px;
+$margin-medium: 16px;
+$margin-large: 24px;
+
+// Media Query Variables (Bootstrap Recommendations)
+$screen-xs-max: 575px;
+$screen-sm-min: 576px;
+$screen-sm-max: 767px;
+$screen-md-min: 768px;
+$screen-md-max: 991px;
+$screen-lg-min: 992px;
+$screen-lg-max: 1199px;
+$screen-xl-min: 1200px;

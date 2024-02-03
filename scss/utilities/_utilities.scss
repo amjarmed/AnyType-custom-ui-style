@@ -1,0 +1,22 @@
+// _utilities.scss
+
+// Utility Class: Center Text
+.text-center {
+  text-align: center;
+}
+
+// Utility Class: Flex Container
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Utility Class: Remove List Styles
+.no-list-style {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+// Add more utility classes or helper styles as needed
