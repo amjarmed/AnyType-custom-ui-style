@@ -8,4 +8,4 @@ node_modules/
 .env.*.local
 
 # Ignore build artifacts
-note_docs/
+notes_docs/
