@@ -7,10 +7,6 @@
 </p>
 
 
-# AnyType custom ui style
-
-Create a custom anytype ui style for Any type main page with css
-
 ---
 
 So AnyType is Build with [electronjs](https://www.electronjs.org/) which is a framework for  Building a cross-platform desktop apps with JavaScript, HTML, and CSS.
